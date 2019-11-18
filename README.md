@@ -1,3 +1,12 @@
+to compile the sample, you have to compile sdk first.
+
+git clone ...
+cd cardboard/sdk       # cd sdk sub folder
+../gradlew assemble    # compile sdk
+cd ..                  # cd project root 
+./gradlew installDebug # compile hellocardboard
+
+
 Cardboard SDK
 =============
 Copyright 2019 Google LLC.  All rights reserved.
